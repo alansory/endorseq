@@ -1,20 +1,17 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import Layout from '@/components/layouts/layout';
-import Provider from '@/components/providers/provider';
+import Header from '@/components/layouts/header';
+import Navbar from '@/components/layouts/nav';
 
-// type Props = AppProps<{
-//   dehydratedState: unknown;
-// }>;
 
-export default function MyApp({Component, pageProps}: AppProps) {
+export default function Home({}) {
   return (
     <div id="__next">
-      <Layout>
-        {/* <Provider> */}
-          {/* <Component {...pageProps}/> */}
-        {/* </Provider> */}
-      </Layout>
+      {/* <Layout> */}
+        {/* <Component {...pageProps} /> */}
+      {/* </Layout> */}
+      <Header />
+      <Navbar />
     </div>
   )
 }
