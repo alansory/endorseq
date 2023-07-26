@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Bukhari Script Alternates';
+    src: url('BukhariScriptAlternates.woff2') format('woff2'),
+        url('BukhariScriptAlternates.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bukhari Script';
+    src: url('BukhariScript.woff2') format('woff2'),
+        url('BukhariScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

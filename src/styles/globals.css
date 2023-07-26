@@ -9,3 +9,11 @@
 @import './components/pokemon-evolution.css'; */
 
 @import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: "Bukhari Script";
+  src: url('../../public/fonts/BukhariScript.woff2') format('woff2'),
+  url('../../public/fonts/BukhariScript.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

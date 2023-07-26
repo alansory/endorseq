@@ -2,7 +2,8 @@
 import Link from "next/link"
 import {
   HiOutlineViewGrid,
-  HiOutlineColorSwatch
+  HiOutlineColorSwatch,
+  HiOutlineInformationCircle
 } from 'react-icons/hi'
 
 export default function Nav(){
@@ -10,20 +11,22 @@ export default function Nav(){
     <nav id="_nav">
       <ul id="_nav-inner">
         <li className="order-2 flex-1">
-          {/* <Link href="/" className="nav-link"> */}
-          <div className="nav-link">
+          <Link href="/" className="nav-link">
             <HiOutlineViewGrid className="text-2xl"/>
             Endorse
-          {/* </Link> */}
-          </div>  
+          </Link>
         </li>
         <li className="order-2 flex-1">
-          {/* <Link href="/selling" className="nav-link"> */}
-            <div className="nav-link">
+          <Link href="/studio" className="nav-link">
               <HiOutlineColorSwatch className="text-2xl"/>
-              Sewa
-            </div>
-          {/* </Link> */}
+              Studio
+          </Link>
+        </li>
+        <li className="order-2 flex-1">
+          <Link href="/about" className="nav-link">
+            <HiOutlineInformationCircle className="text-2xl"/>
+            About
+          </Link>
         </li>
       </ul>
     </nav>
