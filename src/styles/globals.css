@@ -2,8 +2,8 @@
 @import './base.css';
 
 @import 'tailwindcss/components';
-/* @import './components/globals.css';
-@import './components/pokemon-base.css';
+@import './components/globals.css';
+/* @import './components/pokemon-base.css';
 @import './components/pokemon-card.css';
 @import './components/pokemon-detail.css';
 @import './components/pokemon-evolution.css'; */

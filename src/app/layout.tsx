@@ -16,10 +16,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div id="__next">   
-          {/* <CustomeStyles />      */}
+          <CustomeStyles />     
           <Header />
           <Navbar />
           <main className="px-3.5 pt-8 pb-20 lg:px-6 lg:py-10">{children}</main>
+          
         </div>
       </body>
     </html>

@@ -14,9 +14,9 @@ export default function Header(){
       <div id="_header-inner">
         <Link href="/" className="-ml-px inline-px flex-col items-end">
           <p className="starlet-font">Starlet</p>
-          <div className="-mt-1 inline-block -rotate-6 border border-white bg-gradient-to-br from-sky-600 to-pink-600 px-1.5 text-[9px] font-bold tracking-widest text-white lg:px-3 lg:text-[10px] leading-[1.5rem]">
+          {/* <div className="-mt-1 inline-block -rotate-6 border border-white bg-gradient-to-br from-sky-600 to-pink-600 px-1.5 text-[9px] font-bold tracking-widest text-white lg:px-3 lg:text-[10px] leading-[1.5rem]">
             MARKETPLACE INFLUENCER
-          </div>
+          </div> */}
         </Link>
         <div className="flex items-center gap-1 self-center">
           <label

@@ -1,5 +1,6 @@
+"use client"
 import Head from 'next/head';
-import { useReducer } from 'react';
+import { useReducer, useEffect } from 'react';
 import { useWindowEvent } from 'react-power-ups';
 
 type ScrollState = {
@@ -23,6 +24,11 @@ export default function CustomeStyles(){
   });
 
   useWindowEvent('scroll', dispatchScrollState);
+
+  useEffect(() => {
+    const newTitle = scrollState.hideHeader ? 'Hidden Header Title' : 'Starlet | Marketplace Influencer';
+    document.title = newTitle;
+  }, [scrollState.hideHeader]);
 
   return (
     <Head>
