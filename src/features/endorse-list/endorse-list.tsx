@@ -1,4 +1,7 @@
 import clsx from 'clsx';
+import {
+  GoMultiSelect
+} from 'react-icons/go'
 
 export default function EndorseListFilter() {
   return (
@@ -23,7 +26,8 @@ export default function EndorseListFilter() {
           title="Filter"
           aria-label="Filter"
         >
-          ⚙️
+          {/* ⚙️ */}
+          <GoMultiSelect className="text-2xl"/>
         </button>
         <button
           type="button"
@@ -36,7 +40,8 @@ export default function EndorseListFilter() {
           title="Filter"
           aria-label="Filter"
         >
-          ⚙️
+          {/* ⚙️ */}
+          <GoMultiSelect className="text-2xl"/>
         </button>
         <div
           className={clsx(
@@ -55,11 +60,17 @@ export default function EndorseListFilter() {
             className="mx-px h-[38px] rounded-md border-x-[12px] border-white bg-white ring-1 ring-gray-200 dark:border-dark-base dark:bg-dark-base dark:ring-dark-light"
           >
             <option value="0">All Packages</option>
-            {/* {data!.generations.map(({ id, name }) => (
-              <option key={id} value={id}>
-                {name}
+            {/* {data!.generations.map(({ id, name }) => ( */}
+              <option key="instagram" value="Instagram">
+                Tiktok
               </option>
-            ))} */}
+              <option key="instagram" value="Instagram">
+                Instagram
+              </option>
+              <option key="instagram" value="Instagram">
+                YouTube
+              </option>
+            {/* ))} */}
           </select>
           <select
             // value={filter.typeId}
@@ -69,7 +80,10 @@ export default function EndorseListFilter() {
             // }}
             className="mx-px h-[38px] rounded-md border-x-[12px] border-white bg-white ring-1 ring-gray-200 dark:border-dark-base dark:bg-dark-base dark:ring-dark-light"
           >
-            <option value="0">All types</option>
+            <option value="0">Trending</option>
+            <option value="1">Newly Added</option>
+            <option value="2">Lowest to Highest</option>
+            <option value="2">Highest to Lowest</option>
             {/* {data!.types.map(({ id, name }) => (
               <option key={id} value={id}>
                 {name}

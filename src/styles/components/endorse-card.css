@@ -15,11 +15,14 @@
   > img,
   > picture {
     @apply col-start-3 row-span-3 row-start-2 -mt-5 drop-shadow-lg transition-transform;
+    border-radius: 50%;
+    max-width: 70%;
+    margin-left: 2rem;
   }
   > * {
     @apply relative z-[1];
   }
-  > .pokeball-flat {
+  > .endorse-flat {
     @apply absolute right-12 bottom-4 z-0 rotate-12 scale-125;
   }
 }

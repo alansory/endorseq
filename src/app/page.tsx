@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import '../styles/globals.css';
-import EndorseListFilter from '@/components/endorse-list/endorse-list';
-import EndorseCard from '@/components/endorse-list/endorse-card';
+import EndorseCard from '@/features/endorse-list/endorse-card';
+import EndorseListFilter from '@/features/endorse-list/endorse-list';
 
 export default function Home() {
   return (
@@ -10,9 +10,14 @@ export default function Home() {
         <EndorseListFilter />
       </div>
       <hr className="-mx-6 mb-8 hidden lg:block" />
-      <div className={clsx('endorse-card-container', 'opacity-60')}>
+      <div className={clsx('endorse-card-container')}>
         {/* {pokemons.map((pokemon) => ( */}
-          {/* <EndorseCard /> */}
+          <EndorseCard />
+          <EndorseCard />
+          <EndorseCard />
+          <EndorseCard />
+          <EndorseCard />
+          <EndorseCard />
         {/* ))} */}
         {/* {!isFetching && pokemons.length === 0 && 'No result'}
         {isFetchingNextPage && <PokemonCardsShimmer />} */}

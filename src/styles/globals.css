@@ -3,10 +3,9 @@
 
 @import 'tailwindcss/components';
 @import './components/globals.css';
-/* @import './components/pokemon-base.css';
-@import './components/pokemon-card.css';
-@import './components/pokemon-detail.css';
-@import './components/pokemon-evolution.css'; */
+@import './components/endorse-card.css';
+@import './components/endorse-flat.css';
+/* @import './components/pokemon-evolution.css';  */
 
 @import 'tailwindcss/utilities';
 
