@@ -18,8 +18,9 @@ export default function RootLayout({
         <div id="__next">   
           <CustomeStyles />     
           <Header />
-          <Navbar />
-          <main className="px-3.5 pt-8 pb-20 lg:px-6 lg:py-10">{children}</main>
+          {/* <Navbar /> */}
+          {/* <main className="px-3.5 pt-8 pb-20 lg:px-6 lg:py-10">{children}</main> */}
+          <main>{children}</main>
           
         </div>
       </body>

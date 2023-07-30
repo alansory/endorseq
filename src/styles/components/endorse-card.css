@@ -3,7 +3,7 @@
 }
 
 .endorse-card {
-  @apply relative grid grid-cols-[auto_1fr_128px] grid-rows-[auto_auto_1fr_auto] overflow-hidden rounded-md bg-elm-undefined p-4 text-sm text-white;
+  @apply relative grid grid-cols-[auto_1fr_128px] grid-rows-[auto_auto_1fr_auto] overflow-hidden rounded-md bg-elm-undefined p-4 text-sm border;
 
   &.bg-elm-bug,
   &.bg-elm-electric,
@@ -28,5 +28,5 @@
 }
 
 .endorse-card-number {
-  @apply mt-2 rounded-full bg-white/60 px-2.5 py-1 font-semibold text-typography-light;
+  @apply mt-2 rounded-full bg-black px-2.5 py-1 font-semibold text-white;
 }

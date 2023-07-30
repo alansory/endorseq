@@ -3,7 +3,7 @@ import Link from "next/link"
 import {
   HiOutlineViewGrid,
   HiOutlineColorSwatch,
-  HiOutlineInformationCircle
+  HiOutlineUserCircle
 } from 'react-icons/hi'
 
 export default function Nav(){
@@ -24,8 +24,8 @@ export default function Nav(){
         </li>
         <li className="order-2 flex-1">
           <Link href="/about" className="nav-link">
-            <HiOutlineInformationCircle className="text-2xl"/>
-            About
+            <HiOutlineUserCircle className="text-2xl"/>
+            Profile
           </Link>
         </li>
       </ul>

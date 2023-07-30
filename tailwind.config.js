@@ -46,7 +46,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'endorse-card':'#808b99',
         typography: {
           light: colors.gray[700],
           dark: colors.slate[300],

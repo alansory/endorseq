@@ -32,6 +32,7 @@ export default function CustomeStyles(){
 
   return (
     <Head>
+      <link rel="shortcut icon" href="/favicon.ico" />
       <style>
         {`
           :root {
